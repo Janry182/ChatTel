@@ -6,7 +6,7 @@ WORKDIR $HOME
 
 COPY . .
 
-RUN npm install
+RUN npm ci
 RUN npm run build
 CMD npm run start
 EXPOSE 3000
