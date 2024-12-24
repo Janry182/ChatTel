@@ -44,9 +44,9 @@
     "whatwg-fetch": "^3.0.0"
   },
       "compilerOptions": {
--     "module": "nodenext",
-+     "module": "NodeNext",
-+     "moduleResolution": "node",
+      "module": "nodenext",
+      "module": "NodeNext",
+      "moduleResolution": "node",
       "outDir": "./dist",
       "allowJs": false,
       "target": "es2021",
