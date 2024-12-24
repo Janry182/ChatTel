@@ -42,5 +42,6 @@
     "store": "^1.3.20",
     "webpack": "^1.14.0",
     "whatwg-fetch": "^3.0.0"
-  }
+  },
+  "scripts": {"build": "webpack --display-modules"}
 }
